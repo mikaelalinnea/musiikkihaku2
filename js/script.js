@@ -107,7 +107,7 @@ function loadTopTracks(artistName) {
             }
 
             let output =
-            "<div class='card mb-4'>" +
+            "<div class='card top-tracks-card mx-auto mb-4'>" +
             "<div class='card-body'>" +
             "<h3>" +
             artistName +

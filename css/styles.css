@@ -48,3 +48,8 @@ h2 {
     width: 100%;
     height: auto;
 }
+
+.top-tracks-card {
+    background-color: rgb(224, 228, 194);
+    max-width: 600px;
+}
