@@ -52,4 +52,17 @@ h2 {
 .top-tracks-card {
     background-color: rgb(224, 228, 194);
     max-width: 600px;
+    border: none;
+}
+
+.card {
+    background-color: rgb(224, 228, 194);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
 }
