@@ -36,6 +36,8 @@ function loadAlbums(artistName) {
         method: "GET",
         success: function (data) {
 
+            console.log(data);
+
             if (!data.topalbums) {
                 $("#tracks").html("");
                 $("#albums").html(
