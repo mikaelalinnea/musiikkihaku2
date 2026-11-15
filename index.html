@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiikkihaku 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container py-4">
+
+        <header class="text-center mb-4">
+            <h1>Musiikkihaku 2</h1>
+            <p>Hae artistien albumeita</p>
+        </header>
+
+        <div class="row mb-3">
+
+            <div class="col-md-6 mx-auto">
+                <label for="artistSelect" class="form-label">
+                    Valitse artisti
+                </label>
+
+                <select id="artistSelect" class="form-select">
+
+                    <option value="">Valitse artisti</option>
+                    <option value="Happoradio">Happoradio</option>
+                    <option value="Metallica">Metallica</option>
+                    <option value="Isac Elliot">Isac Elliot</option>
+                    <option value="Leevi and the leavings">Leevi and the leavings</option>
+                    <option value="Ghost">Ghost</option>
+
+                </select>
+
+            </div>
+
+        </div>
+        
+        <div class="row mb-4">
+
+            <div class="col-md-6 mx-auto">
+                <label for="searchInput" class="form-label">
+                    Hae artistia
+                </label>
+
+                <div class="d-flex gap-2">
+                    
+                    <input type="text"
+                    id="searchInput"
+                    class="form-control"
+                    placeholder="Kirjoita artistin nimi">
+
+                <button id="searchBtn"
+                        class="btn btn-primary">
+                        Hae
+                </button>                    
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div id="tracks" class="mb-4"></div>
+
+        <h2 class="text-center mb-4">Albumit</h2>
+
+        <div id="albums" class="row g-4"></div>
+
+    </div>
+
+</body>
+
+</html>
