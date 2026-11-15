@@ -86,7 +86,7 @@ Pohdi työtäsi ja oppimisprosessiasi.
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 - Käytetty tekoälytyökalu: Microsoft Copilot
-  - Tekoälyä on käytetty koodin virheiden etsimiseen jos jokin toiminto ei toiminut oikein sekä koodin siistimiseen. Tekoäly myös kirjoitti README.md "Sovelluksen käynnistäminen paikallissesti", sillä en ollut ihan varma miten se tehdään.
+  - Tekoälyä on käytetty koodin virheiden etsimiseen jos jokin toiminto ei toiminut oikein sekä koodin siistimiseen.
 
   ## Lisenssi
 
