@@ -34,9 +34,8 @@ function loadAlbums(artistName) {
         "/.netlify/functions/topalbums?artist=" +
         encodeURIComponent(artistName),
         method: "GET",
+        dataType: "json",
         success: function (data) {
-            console.log("DATA", data);
-            console.log("TYPE", typeof data);
 
             if (!data.topalbums) {
                 $("#tracks").html("");
@@ -99,6 +98,7 @@ function loadTopTracks(artistName) {
         "/.netlify/functions/toptracks?artist=" +
         encodeURIComponent(artistName),
         method: "GET",
+        dataType: "json",
         success: function (data) {
 
             if (!data.toptracks) {
