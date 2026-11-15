@@ -27,7 +27,7 @@ function loadAlbums(artistName) {
 
     loadTopTracks(artistName);
 
-    $("#albums").html("<p>Ladataan albumeita..</p>");
+    $("#albums").html("<p class='col-12 text-center'>Ladataan albumeita..</p>");
 
     $.ajax({
         url:
