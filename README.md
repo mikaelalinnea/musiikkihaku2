@@ -6,7 +6,7 @@
 
 ### Projektin idea
 
-Musiikkihaku on sovellus, jonka avulla käyttäjä voi etsiä artistien albumeita Last.fm-palvelun kautta. Käyttäjä voi valita artistin sivulla olevasta listasta tai itse hakukentän avulla. Sovellus näyttää myös artistin top 3 - kappaletta. Sovellus on tarkoitettu kenelle tahansa, joka haluaa käydä läpi jonkun artistin albumeita.
+Musiikkihaku2 on jQueryä ja Bootstrapia hyödyntävä sovellus, jonka avulla käyttäjä voi etsiä artistien albumeita Last.fm-palvelun kautta. Käyttäjä voi valita artistin sivulla olevasta listasta tai itse hakukentän avulla. Sovellus näyttää myös artistin top 3 - kappaletta. Sovellus on tarkoitettu kenelle tahansa, joka haluaa käydä läpi jonkun artistin albumeita.
 
 ### Suunnitellut toiminnot
 
@@ -22,19 +22,21 @@ Musiikkihaku on sovellus, jonka avulla käyttäjä voi etsiä artistien albumeit
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** (https://musiikkihaku.netlify.app/)
-- **GitHub-repositorio:** (https://github.com/mikaelalinnea/musiikkihaku)
-- **Projektin videoesittely:** (https://youtu.be/UP7iL9-MzJo)
+- **Julkaistu sovellus:** (X)
+- **GitHub-repositorio:** (https://github.com/mikaelalinnea/musiikkihaku2)
+- **Projektin videoesittely:** (X)
 
 ## Tietoja sovelluksesta
 
-**Musiikkihaku** on verkkosovellus, joka hyödyntää Last.fm APIa eri musiikkitietojen hakemiseen. Käyttäjä voi etsiä artisteja, jolloin sivulla näkyy sen artistin albumit sekä suosituimmat kappaleet. Sivulta pääsee myös jokaisen albumin kohdalta linkin kautta katsomaan lisätietoja albumista, kuten kappaleet. Sovellus hyödyntää Netlify API-avaimen suojaamiseen.
+**Musiikkihaku2** on verkkosovellus, joka hyödyntää Last.fm APIa eri musiikkitietojen hakemiseen. Käyttäjä voi etsiä artisteja, jolloin sivulla näkyy sen artistin albumit sekä suosituimmat kappaleet. Sivulta pääsee myös jokaisen albumin kohdalta linkin kautta katsomaan lisätietoja albumista, kuten kappaleet. Sovellus hyödyntää Netlify API-avaimen suojaamiseen, Bootstrapia käyttöliittymän toteuttamiseen ja jQueryä tapahtumankäsittelyyn ja tietojen hakemiseen.
 
 ## Teknologiat
 
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
-- JavaScript – toiminnallisuus ja API-kutsut
+- JavaScript – toiminnallisuus
+- jQuery - AJAX-kutsut, DOM-skriptaus, tapahtumankäsittely
+- Bootstrap - responsiivinen ulkoasu ja käyttöliittymän komponentit
 - Last.fm API - artisti ja albumitiedot
 - Netlify - sovelluksen julkaisu, API-avaimen suojaaminen
 
@@ -79,6 +81,10 @@ Pohdi työtäsi ja oppimisprosessiasi.
 
 - Kurssimateriaali & aikaisemmat workshopit.
 - [Last.fm/api](https://www.last.fm/api)
+- [jQuery](https://jquery.com/)
+- [W3schools-jQuery](https://www.w3schools.com/jquery/default.asp)
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
 - Käytetty tekoälytyökalu: Microsoft Copilot
   - Tekoälyä on käytetty koodin virheiden etsimiseen jos jokin toiminto ei toiminut oikein sekä koodin siistimiseen. Tekoäly myös kirjoitti README.md "Sovelluksen käynnistäminen paikallissesti", sillä en ollut ihan varma miten se tehdään.
 
