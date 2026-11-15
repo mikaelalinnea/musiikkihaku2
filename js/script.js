@@ -35,8 +35,8 @@ function loadAlbums(artistName) {
         encodeURIComponent(artistName),
         method: "GET",
         success: function (data) {
-
-            console.log(data);
+            console.log(data.topalbums);
+            console.log(data.topalbums.album.length);
 
             if (!data.topalbums) {
                 $("#tracks").html("");
@@ -48,6 +48,7 @@ function loadAlbums(artistName) {
 
             let output = "";
             const albumList = data.topalbums.album;
+            console.log(albumList);
 
             for (let i = 0; i < albumList.length; i++) {
 
