@@ -6,7 +6,7 @@
 
 ### Projektin idea
 
-Musiikkihaku2 on jQueryä ja Bootstrapia hyödyntävä sovellus, jonka avulla käyttäjä voi etsiä artistien albumeita Last.fm-palvelun kautta. Käyttäjä voi valita artistin sivulla olevasta listasta tai itse hakukentän avulla. Sovellus näyttää myös artistin top 3 - kappaletta. Sovellus on tarkoitettu kenelle tahansa, joka haluaa käydä läpi jonkun artistin albumeita.
+Musiikkihaku 2 on jQueryä ja Bootstrapia hyödyntävä sovellus, jonka avulla käyttäjä voi etsiä artistien albumeita Last.fm-palvelun kautta. Käyttäjä voi valita artistin sivulla olevasta listasta tai itse hakukentän avulla. Sovellus näyttää myös artistin top 3 - kappaletta. Sovellus on tarkoitettu kenelle tahansa, joka haluaa käydä läpi jonkun artistin albumeita.
 
 ### Suunnitellut toiminnot
 
@@ -22,13 +22,13 @@ Musiikkihaku2 on jQueryä ja Bootstrapia hyödyntävä sovellus, jonka avulla k�
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** (X)
+- **Julkaistu sovellus:** (https://musiikkihaku2.netlify.app/)
 - **GitHub-repositorio:** (https://github.com/mikaelalinnea/musiikkihaku2)
-- **Projektin videoesittely:** (X)
+- **Projektin videoesittely:** (https://youtu.be/IOABl-mLeYc)
 
 ## Tietoja sovelluksesta
 
-**Musiikkihaku2** on verkkosovellus, joka hyödyntää Last.fm APIa eri musiikkitietojen hakemiseen. Käyttäjä voi etsiä artisteja, jolloin sivulla näkyy sen artistin albumit sekä suosituimmat kappaleet. Sivulta pääsee myös jokaisen albumin kohdalta linkin kautta katsomaan lisätietoja albumista, kuten kappaleet. Sovellus hyödyntää Netlify API-avaimen suojaamiseen, Bootstrapia käyttöliittymän toteuttamiseen ja jQueryä tapahtumankäsittelyyn ja tietojen hakemiseen.
+**Musiikkihaku 2** on verkkosovellus, joka hyödyntää Last.fm APIa eri musiikkitietojen hakemiseen. Käyttäjä voi etsiä artisteja, jolloin sivulla näkyy sen artistin albumit sekä suosituimmat kappaleet. Sivulta pääsee myös jokaisen albumin kohdalta linkin kautta katsomaan lisätietoja albumista, kuten kappaleet. Sovellus hyödyntää Netlify API-avaimen suojaamiseen, Bootstrapia käyttöliittymän toteuttamiseen ja jQueryä tapahtumankäsittelyyn ja tietojen hakemiseen.
 
 ## Teknologiat
 
@@ -71,10 +71,10 @@ Musiikkihaku2 on jQueryä ja Bootstrapia hyödyntävä sovellus, jonka avulla k�
 Pohdi työtäsi ja oppimisprosessiasi.
 
 - Onnistuin toteuttamaan toimivan verkkosovelluksen, joka hyödyntää Last.fm APIa. Sain toimimaan että käyttäjä pystyy hakea artisteja alasvetovalikosta sekä hakukentän avulla. Sovellus näyttää albumit, albumikuvat sekä artistin suosituimmat kappaleet.
-- Haastavinta oli Last.fm API:n käyttöönotto, API-kutsujen rakentaminen ja Netlifyn käyttö.
-- Jos olisi enemmän aikaa, lisäisin sivulle enemmän lisätietoja.
-- Projektin aikana opin käyttämään Last.fm APIa ja käsittelemään JSON muotoista dataa JavaScriptissä. Opin paremmin API-kutsujen tekemistä ja tiedon näyttämistä sivulla. Opin myös suojaamaan API-avaimen Netlifyn kautta.
-- Haluaisin oppia lisää API-rajapinnoista ja niiden käytöstä, enemmän Netlifyn käytöstä sekä miten frontend ja backend toimivat yhdessä verkkosovelluksissa.
+- Haastavinta oli AJAX-kutsujen toteuttaminen ja datan käsittely.
+- Jos olisi enemmän aikaa, kehittäisin käyttöliittymää enemmän.
+- Projektin aikana opin käyttämään jQueryä tapahtumankäsittelyyn, AJAX-kutsuihin ja DOM-skriptaukseen. Opin myös paremmin hyödyntämään Bootstrapia.
+- Haluaisin oppia lisää JavaScript-kirjastoista ja  API-rajapinnoista ja niiden käytöstä.
 - Oma arvio projektista: **8/10 pistettä**
 
 ## Lähteet ja kiitokset
